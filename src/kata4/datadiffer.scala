@@ -9,6 +9,5 @@ object DataDiffer {
                   filter(_.nonEmpty).map(s => (s(idIdx), fun(s(diffIdx._1).toInt - s(diffIdx._2).toInt)))
 
     println(diffs.foldLeft(diffs(0))((l, r) => if (l._2 > r._2) r else l))
-
   }
 }
