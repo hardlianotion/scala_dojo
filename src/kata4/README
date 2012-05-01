@@ -1,0 +1,8 @@
+Kata 4:
+Instructions for the kata are at
+http://codekata.pragprog.com/2007/01/kata_four_data_.html
+
+It feels like I have cheated a little doing the refactor in this exercise.  I have only refactored with the
+basic goal of making maximal amount of common code available to both problems.
+The resulting refactored code is fairly specialised and does many things at once.  Better approach to give a decent
+wrapping function to each distinct phase of the problem, make the whole more generally useful.
